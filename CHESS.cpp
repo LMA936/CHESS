@@ -1,15 +1,15 @@
 /***************************************************************************************************************************************************************
-ÎÒÃÇÃ»¼û¹ýµÄ¾®×ÖÆå2.0£¨Ö®ËùÒÔ½Ð2.0²¢²»ÊÇÒòÎªÖ»´ó¸ÄÁËÒ»´Î£¬¶øÊÇÒòÎªÔ­±¾Ð´ºÃµÄ´úÂë±»ÎóÉ¾ÁË£¬°æ±¾ºÅÒ²Ã»ÁË£©
-Ê¹ÓÃ¹¤¾ß£ºEasyX¿âº¯Êý£¬³ý´ËÖ®ÍâÈ«ÊÇCµÄÓï·¨
-¸Ã´úÂëÖ÷Òª°üº¬Èý²¿·Ö£ºÍ¼ÐÎ½çÃæ£¨main¡¢rules¡¢choose¡¢set¡¢slight¡¢delight¡¢vs£©¡¢ÒÆ¶¯Æå×ÓÏµÍ³£¨vs¡¢availabel£©ÓëÏÂÆåÖ¸ÁîÏµÍ³£¨move¡¢suiji¡¢ai£¨sure£©£©
-AI·½Ãæ£º
-LEVEL1ÊÇÍêÈ«Ëæ»ú£»
-LEVEL2ÊÇÓÃsureº¯ÊýÅÐ¶¨´Ë²½¿É·ñÊ¤Àû£»ÊÇÔò×ß£¬·ñÔòÕ¹¿ªÕâÒ»²½¿ÉÒÔ²úÉúµÄËùÓÐÆåÅÌ£¬²¢ÓÃsure¶Ô²úÉúµÄÆåÅÌ½øÐÐ¿ÉÊ¤ÅÐ¶¨£¬¿ÉÊ¤Õß´æÈëloseÊý×éÖÐ¼ÇÎª´íÎó×ß·¨£¬Ö®ºó±ÜÃâ´íÎó
-×ß·¨Ëæ»ú×ßÒ»²½£¬ÈôÈ«¶¼ÊÇ´íÎó×ß·¨£¬ÔòÖ±½ÓËæ»ú×ß£»
-LEVEL3ÊÇ°ÑÉÏÒ»¼¶ÓÃsure½øÐÐµÄÅÐ¶¨ÓÃaiº¯ÊýÀ´´úÌæ£¬´ï³ÉµÄÐ§¹ûÊÇ¿ÉÒÔ½«Á½²½ÒÔÄÚ±ØÊ¤µÄ×ß·¨Ö±½ÓÊä³ö£¬²¢±ÜÃâÒ»²½Ôì³ÉµÄËÀÍö£»
-LEVEL4ÊÇµ÷ÓÃ×ÔÉí3´Î£¨ÒòÎªÄÚ²¿levelµÄÖµÆäÊµÊÇ5£©£¬´ï³ÉµÄÐ§¹ûÊÇ¿ÉÒÔ½«Èý²½ÒÔÄÚ±ØÊ¤µÄ×ß·¨Ö±½ÓÊä³ö£¬²¢±ÜÃâÁ½²½ÒÔÄÚÔì³ÉµÄËÀÍö£»
-LEVEL5ÔòÊÇµ÷ÓÃ×ÔÉí4´Î£¨level=6£©£¬´ï³ÉµÄÐ§¹ûÊÇ¿ÉÒÔ½«Èý²½ÒÔÄÚ±ØÊ¤µÄ×ß·¨Ö±½ÓÊä³ö£¬²¢±ÜÃâÈý²½ÒÔÄÚÔì³ÉµÄËÀÍö£»
-£¨ÓÉÓÚ¸ÃÆåµÄ¾ÖÏÞÐÔ£¬Ö»ÓÐÏÈÊÖ¿ÉÒÔÓÐÈý²½ÒÔÄÚ±ØÊ¤µÄ×ß·¨£¬¹Ê¶øLEVEL5ÒÔÉÏÃ»ÓÐÒâÒå£©
+æˆ‘ä»¬æ²¡è§è¿‡çš„äº•å­—æ£‹2.0ï¼ˆä¹‹æ‰€ä»¥å«2.0å¹¶ä¸æ˜¯å› ä¸ºåªå¤§æ”¹äº†ä¸€æ¬¡ï¼Œè€Œæ˜¯å› ä¸ºåŽŸæœ¬å†™å¥½çš„ä»£ç è¢«è¯¯åˆ äº†ï¼Œç‰ˆæœ¬å·ä¹Ÿæ²¡äº†ï¼‰
+ä½¿ç”¨å·¥å…·ï¼šEasyXåº“å‡½æ•°ï¼Œé™¤æ­¤ä¹‹å¤–å…¨æ˜¯Cçš„è¯­æ³•
+è¯¥ä»£ç ä¸»è¦åŒ…å«ä¸‰éƒ¨åˆ†ï¼šå›¾å½¢ç•Œé¢ï¼ˆmainã€rulesã€chooseã€setã€slightã€delightã€vsï¼‰ã€ç§»åŠ¨æ£‹å­ç³»ç»Ÿï¼ˆvsã€availabelï¼‰ä¸Žä¸‹æ£‹æŒ‡ä»¤ç³»ç»Ÿï¼ˆmoveã€suijiã€aiï¼ˆsureï¼‰ï¼‰
+AIæ–¹é¢ï¼š
+LEVEL1æ˜¯å®Œå…¨éšæœºï¼›
+LEVEL2æ˜¯ç”¨sureå‡½æ•°åˆ¤å®šæ­¤æ­¥å¯å¦èƒœåˆ©ï¼›æ˜¯åˆ™èµ°ï¼Œå¦åˆ™å±•å¼€è¿™ä¸€æ­¥å¯ä»¥äº§ç”Ÿçš„æ‰€æœ‰æ£‹ç›˜ï¼Œå¹¶ç”¨sureå¯¹äº§ç”Ÿçš„æ£‹ç›˜è¿›è¡Œå¯èƒœåˆ¤å®šï¼Œå¯èƒœè€…å­˜å…¥loseæ•°ç»„ä¸­è®°ä¸ºé”™è¯¯èµ°æ³•ï¼Œä¹‹åŽé¿å…é”™è¯¯
+èµ°æ³•éšæœºèµ°ä¸€æ­¥ï¼Œè‹¥å…¨éƒ½æ˜¯é”™è¯¯èµ°æ³•ï¼Œåˆ™ç›´æŽ¥éšæœºèµ°ï¼›
+LEVEL3æ˜¯æŠŠä¸Šä¸€çº§ç”¨sureè¿›è¡Œçš„åˆ¤å®šç”¨aiå‡½æ•°æ¥ä»£æ›¿ï¼Œè¾¾æˆçš„æ•ˆæžœæ˜¯å¯ä»¥å°†ä¸¤æ­¥ä»¥å†…å¿…èƒœçš„èµ°æ³•ç›´æŽ¥è¾“å‡ºï¼Œå¹¶é¿å…ä¸€æ­¥é€ æˆçš„å¤±è´¥ï¼›
+LEVEL4æ˜¯è°ƒç”¨è‡ªèº«3æ¬¡ï¼ˆå› ä¸ºå†…éƒ¨levelçš„å€¼å…¶å®žæ˜¯5ï¼‰ï¼Œè¾¾æˆçš„æ•ˆæžœæ˜¯å¯ä»¥å°†ä¸‰æ­¥ä»¥å†…å¿…èƒœçš„èµ°æ³•ç›´æŽ¥è¾“å‡ºï¼Œå¹¶é¿å…ä¸¤æ­¥ä»¥å†…é€ æˆçš„å¤±è´¥ï¼›
+LEVEL5åˆ™æ˜¯è°ƒç”¨è‡ªèº«4æ¬¡ï¼ˆlevel=6ï¼‰ï¼Œè¾¾æˆçš„æ•ˆæžœæ˜¯å¯ä»¥å°†ä¸‰æ­¥ä»¥å†…å¿…èƒœçš„èµ°æ³•ç›´æŽ¥è¾“å‡ºï¼Œå¹¶é¿å…ä¸‰æ­¥ä»¥å†…é€ æˆçš„å¤±è´¥ï¼›
+ï¼ˆç”±äºŽè¯¥æ£‹çš„å±€é™æ€§ï¼Œåªæœ‰å…ˆæ‰‹å¯ä»¥æœ‰ä¸‰æ­¥ä»¥å†…å¿…èƒœçš„èµ°æ³•ï¼Œæ•…è€ŒLEVEL5ä»¥ä¸Šæ²¡æœ‰æ„ä¹‰ï¼‰
 ***************************************************************************************************************************************************************/
 #include <graphics.h>
 #include <conio.h>
@@ -18,19 +18,19 @@ LEVEL5ÔòÊÇµ÷ÓÃ×ÔÉí4´Î£¨level=6£©£¬´ï³ÉµÄÐ§¹ûÊÇ¿ÉÒÔ½«Èý²½ÒÔÄÚ±ØÊ¤µÄ×ß·¨Ö±½ÓÊä³ö£¬
 #include <time.h>
 #include <stdlib.h>
 #define LEFT 210
-#define TOP 200/*ÆåÅÌ×óÉÏ½Ç¶¥µã*/
-#define Point(p,x) (((p)->position & (3<<(2*(x))))>>(2*(x)))/*¶ÔÓ¦µãÉÏµÄ¶«Î÷*/
+#define TOP 200/*æ£‹ç›˜å·¦ä¸Šè§’é¡¶ç‚¹*/
+#define Point(p,x) (((p)->position & (3<<(2*(x))))>>(2*(x)))/*å¯¹åº”ç‚¹ä¸Šçš„ä¸œè¥¿*/
 #define Setchess(a,img) (putimage(LEFT + 1 + fabs((a) % 3 * 80),TOP + 1 + (a) / 3 * 80,img))
-#define Clear(a) clearrectangle(LEFT + 1 + fabs((a) % 3 * 80), TOP + 1 + (a) / 3 * 80, LEFT + 79 + fabs((a) % 3 * 80), TOP + 79 + (a) / 3 * 80)/*Çå¿ÕÒ»¸ö¿é*/
-#define light(a) fillrectangle(LEFT + 1 + fabs((a) % 3 * 80), TOP + 1 + (a) / 3 * 80, LEFT + 79 + fabs((a) % 3 * 80), TOP + 79 + (a) / 3 * 80)/*¸ßÁÁ¿ÉÑ¡Çø*/
+#define Clear(a) clearrectangle(LEFT + 1 + fabs((a) % 3 * 80), TOP + 1 + (a) / 3 * 80, LEFT + 79 + fabs((a) % 3 * 80), TOP + 79 + (a) / 3 * 80)/*æ¸…ç©ºä¸€ä¸ªå—*/
+#define light(a) fillrectangle(LEFT + 1 + fabs((a) % 3 * 80), TOP + 1 + (a) / 3 * 80, LEFT + 79 + fabs((a) % 3 * 80), TOP + 79 + (a) / 3 * 80)/*é«˜äº®å¯é€‰åŒº*/
 IMAGE player1, player2, player1win, player2win;
 int mode, which,T;
 typedef struct board {
 	unsigned long position;
 	struct board *ahead;
 	struct board *next;
-}board;/*ÆåÅÌ*/
-void slight(int *a)/*¸ßÁÁ*/
+}board;/*æ£‹ç›˜*/
+void slight(int *a)/*é«˜äº®*/
 {
 	int i;
 	setfillcolor(0x55FFFF);
@@ -42,7 +42,7 @@ void slight(int *a)/*¸ßÁÁ*/
 		}
 	}
 }
-void delight(int *a)/*È¡Ïû¸ßÁÁ*/
+void delight(int *a)/*å–æ¶ˆé«˜äº®*/
 {
 	int i;
 	for (i = 0; i < 3; i++)
@@ -51,7 +51,7 @@ void delight(int *a)/*È¡Ïû¸ßÁÁ*/
 			Clear(a[i]);
 		}
 }
-int available(int a, int *b, board *p,int obj)/*¿ÉÑ¡Çø*/
+int available(int a, int *b, board *p,int obj)/*å¯é€‰åŒº*/
 {
 	int sum=0, t;
 	board q;
@@ -109,7 +109,7 @@ int available(int a, int *b, board *p,int obj)/*¿ÉÑ¡Çø*/
 	}
 	return t;
 }
-void set(board *p)/*Õ¹¿ªÆåÅÌ*/
+void set(board *p)/*å±•å¼€æ£‹ç›˜*/
 {
 	setbkcolor(0xFFFFFF);
 	clearrectangle(LEFT, TOP, LEFT + 240, TOP + 240);
@@ -124,11 +124,11 @@ void set(board *p)/*Õ¹¿ªÆåÅÌ*/
 			if (Point(p, k + 3 * i) == 2)
 				Setchess(k + 3 * i, &player2);
 		}
-	outtextxy(50, 280, "»ÚÆå");
-	outtextxy(460, 280, "ÖØÐÂ¿ªÊ¼");
-	outtextxy(280, 500, "·µ»Ø");
+	outtextxy(50, 280, "æ‚”æ£‹");
+	outtextxy(460, 280, "é‡æ–°å¼€å§‹");
+	outtextxy(280, 500, "è¿”å›ž");
 }
-int suiji(board *p,int obj,int way[2])/*Ëæ»ú¶¯×Ó*/
+int suiji(board *p,int obj,int way[2])/*éšæœºåŠ¨å­*/
 {
 	int a[3];
 	do
@@ -147,23 +147,23 @@ int suiji(board *p,int obj,int way[2])/*Ëæ»ú¶¯×Ó*/
 	way[1] = a[way[1]];
 	return 1;
 }
-int sure(board IF, int obj, int way[2])/*È·ÈÏ´Ë²½¿É·ñÊ¤Àû*/
+int sure(board IF, int obj, int way[2])/*ç¡®è®¤æ­¤æ­¥å¯å¦èƒœåˆ©*/
 {
 	int i, k = 0, we[3], ava[3][3];
-	board base = IF;/*»ñµÃ¼º·½Èý×ÓÎ»ÖÃ*/
+	board base = IF;/*èŽ·å¾—å·±æ–¹ä¸‰å­ä½ç½®*/
 	for (i = 0; i < 9; i++)
 	{
 		if (Point(&IF, i) == obj)
 			we[k++] = i;
 	}
-	for (k = 0; k < 3; k++)/*»ñµÃ¿É×ßÇøÓò*/
+	for (k = 0; k < 3; k++)/*èŽ·å¾—å¯èµ°åŒºåŸŸ*/
 		available(we[k], ava[k], &IF, obj);
 	for (k = 0; k < 3; k++)
 		for (i = 0; i < 3; i++)
 		{
 			if (ava[k][i] > -1)
 			{
-				IF.position = base.position & ~((3 << (2 * we[k])) + (3 << (2 * ava[k][i]))) | (obj << (2 * ava[k][i]));/*³ÉÍ¼£¬Ö®ºóÅÐ¶¨ÊÇ·ñÊ¤Àû*/
+				IF.position = base.position & ~((3 << (2 * we[k])) + (3 << (2 * ava[k][i]))) | (obj << (2 * ava[k][i]));/*æˆå›¾ï¼Œä¹‹åŽåˆ¤å®šæ˜¯å¦èƒœåˆ©*/
 				if (Point(&IF, 4) && (((Point(&IF, 0) == Point(&IF, 4)) && (Point(&IF, 8) == Point(&IF, 4))) || ((Point(&IF, 2) == Point(&IF, 4)) && (Point(&IF, 6) == Point(&IF, 4)))))
 				{
 					way[0] = we[k];
@@ -175,23 +175,23 @@ int sure(board IF, int obj, int way[2])/*È·ÈÏ´Ë²½¿É·ñÊ¤Àû*/
 	way[0] = way[1] = -1;
 	return 0;
 }
-int ai(board *p, int obj, int *way,int level)/*lv2¼°ÒÔÉÏµÄAI*/
+int ai(board *p, int obj, int *way,int level)/*lv2åŠä»¥ä¸Šçš„AI*/
 {
 	int we[3], ava[3][3], lose[7][2] = { {-1 ,-1} ,{-1,-1} ,{-1,-1} ,{-1, -1} ,{ -1, -1} ,{ -1, -1}, { -1, -1} }, lost = 0, sum = 0, i, k = 0,flag;
 	board IF;
-	if (sure(*p,obj,way))/*Ò»²½Ê¤Ò²ÊÇÊ¤*/
+	if (sure(*p,obj,way))/*ä¸€æ­¥èƒœä¹Ÿæ˜¯èƒœ*/
 		return 1;
-	for (i = 0; i < 9; i++)/*µÃµ½Èý¸öÆå×ÓÎ»ÖÃ*/
+	for (i = 0; i < 9; i++)/*å¾—åˆ°ä¸‰ä¸ªæ£‹å­ä½ç½®*/
 		if (Point(p, i) == obj)
 			we[k++] = i;
-	for (k = 0; k < 3; k++)/*µÃµ½ËùÓÐ¿É×ßµÄÎ»ÖÃ*/
+	for (k = 0; k < 3; k++)/*å¾—åˆ°æ‰€æœ‰å¯èµ°çš„ä½ç½®*/
 		sum+=available(we[k], ava[k], p, obj);
-	for (k=0;k<3;k++)/*¶ÔÃ¿Ò»ÖÖ×ß·¨½øÐÐ·ÖÎö*/
+	for (k=0;k<3;k++)/*å¯¹æ¯ä¸€ç§èµ°æ³•è¿›è¡Œåˆ†æž*/
 		for (i = 0; i < 3; i++)
 			if (ava[k][i] > -1)
 			{
 				IF.position = p->position & ~((3 << (2 * we[k])) + (3 << (2 * ava[k][i]))) | (obj << (2 * ava[k][i]));
-				if (level == 2)/*¶þ¼¶Ö»ÐèÒªÅÐ¶¨ÕâÒ»²½»á²»»áÁ¢¿Ì´øÀ´Ê§°Ü£¬°Ü¾Ö´æÈëloseÊý×éÖÐ*/
+				if (level == 2)/*äºŒçº§åªéœ€è¦åˆ¤å®šè¿™ä¸€æ­¥ä¼šä¸ä¼šç«‹åˆ»å¸¦æ¥å¤±è´¥ï¼Œè´¥å±€å­˜å…¥loseæ•°ç»„ä¸­*/
 					if (obj == 1)
 					{
 						if (sure(IF, 2, way))
@@ -210,17 +210,17 @@ int ai(board *p, int obj, int *way,int level)/*lv2¼°ÒÔÉÏµÄAI*/
 							continue;
 						}
 					}
-				else/*¸ü¸ß¼¶Ôò½øÐÐ¸üÔ¶µÄÅÐ¶¨*/
+				else/*æ›´é«˜çº§åˆ™è¿›è¡Œæ›´è¿œçš„åˆ¤å®š*/
 				{
 					if (obj == 1)
 					{
-						if ((flag = ai(&IF, 2, way, level - 1)) < 0)/*µÐ·½±ØÊäÎÒ±ØÊ¤*/
+						if ((flag = ai(&IF, 2, way, level - 1)) < 0)/*æ•Œæ–¹å¿…è¾“æˆ‘å¿…èƒœ*/
 						{
 							way[0] = we[k];
 							way[1] = ava[k][i];
 							return 1;
 						}
-						else if (flag > 0)/*µÐ·½±ØÊ¤´ËÂ·²»Í¨*/
+						else if (flag > 0)/*æ•Œæ–¹å¿…èƒœæ­¤è·¯ä¸é€š*/
 						{
 							lose[lost][0] = we[k];
 							lose[lost++][1] = ava[k][i];
@@ -229,13 +229,13 @@ int ai(board *p, int obj, int *way,int level)/*lv2¼°ÒÔÉÏµÄAI*/
 					}
 					else 
 					{
-						if ((flag = ai(&IF, 1, way, level - 1)) < 0)/*µÐ·½±ØÊäÎÒ±ØÊ¤*/
+						if ((flag = ai(&IF, 1, way, level - 1)) < 0)/*æ•Œæ–¹å¿…è¾“æˆ‘å¿…èƒœ*/
 						{
 							way[0] = we[k];
 							way[1] = ava[k][i];
 							return 1;
 						}
-						else if (flag > 0)/*µÐ·½±ØÊ¤´ËÂ·²»Í¨*/
+						else if (flag > 0)/*æ•Œæ–¹å¿…èƒœæ­¤è·¯ä¸é€š*/
 						{
 							lose[lost][0] = we[k];
 							lose[lost++][1] = ava[k][i];
@@ -244,12 +244,12 @@ int ai(board *p, int obj, int *way,int level)/*lv2¼°ÒÔÉÏµÄAI*/
 					}
 				}
 			}
-	if (lost == sum)/*ÎÞÂ·¿É×ß£¬±ØÊä*/
+	if (lost == sum)/*æ— è·¯å¯èµ°ï¼Œå¿…è¾“*/
 	{
 		suiji(p, obj, way);
 		return -1;
 	}
-	else/*×ßÒ»Ìõ²»ÊÇ±ØÊäµÄÂ·*/
+	else/*èµ°ä¸€æ¡ä¸æ˜¯å¿…è¾“çš„è·¯*/
 	{
 		while (true)
 		{
@@ -260,20 +260,20 @@ int ai(board *p, int obj, int *way,int level)/*lv2¼°ÒÔÉÏµÄAI*/
 		}
 	}
 }
-board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£©*/
+board *move(board *p, long obj,int *way)/*çŽ©å®¶åŠ¨å­ï¼Œé€šè¿‡è¿”å›žèµ°æ³•ï¼ˆæ”¾åœ¨wayæ•°ç»„ä¸­ï¼‰*/
 {
 	MOUSEMSG m;
 	int from, to, a[3], flag = 0, flag2;
-	while (true)/*Ñ¡×ÓÒÔ¼°²Ëµ¥*/
+	while (true)/*é€‰å­ä»¥åŠèœå•*/
 	{
 		m = GetMouseMsg();
-		/*ÒÔÏÂÊÇ²Ëµ¥Ðü¸¡·´Ó¦*/
+		/*ä»¥ä¸‹æ˜¯èœå•æ‚¬æµ®ååº”*/
 		if ((m.x > 50) && (m.x < 130) && (m.y > 280) && (m.y < 340))
 		{
 			if (flag != 1)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(50, 280, "»ÚÆå");
+				outtextxy(50, 280, "æ‚”æ£‹");
 				settextcolor(0);
 				flag = 1;
 			}
@@ -283,7 +283,7 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 			if (flag != 2)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(460, 280, "ÖØÐÂ¿ªÊ¼");
+				outtextxy(460, 280, "é‡æ–°å¼€å§‹");
 				settextcolor(0);
 				flag = 2;
 			}
@@ -293,25 +293,25 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 			if (flag != 3)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(280, 500, "·µ»Ø");
+				outtextxy(280, 500, "è¿”å›ž");
 				settextcolor(0);
 				flag = 3;
 			}
 		}
 		else if (flag)
 		{
-			outtextxy(50, 280, "»ÚÆå");
-			outtextxy(460, 280, "ÖØÐÂ¿ªÊ¼");
-			outtextxy(280, 500, "·µ»Ø");
+			outtextxy(50, 280, "æ‚”æ£‹");
+			outtextxy(460, 280, "é‡æ–°å¼€å§‹");
+			outtextxy(280, 500, "è¿”å›ž");
 			flag = 0;
-		}/*ÒÔÉÏÎªÑ¡×ÓÊ±µÄÊó±êÐü¸¡·´Ó¦*/
+		}/*ä»¥ä¸Šä¸ºé€‰å­æ—¶çš„é¼ æ ‡æ‚¬æµ®ååº”*/
 		if ((m.uMsg == WM_LBUTTONDOWN) && (m.x > LEFT) && (m.x < LEFT + 240) && (m.y > TOP) && (m.y < TOP + 240))
 		{
-			from = (m.x - LEFT) / 80 + (m.y - TOP) / 80 * 3;/*»ñµÃÊó±êÍ£ÁôÎ»ÖÃµÄÐòºÅ*/
+			from = (m.x - LEFT) / 80 + (m.y - TOP) / 80 * 3;/*èŽ·å¾—é¼ æ ‡åœç•™ä½ç½®çš„åºå·*/
 			if (Point(p, from) == obj)
 				break;
 		}
-		else if (m.uMsg == WM_LBUTTONDOWN)/*²Ëµ¥µã»÷·´Ó¦*/
+		else if (m.uMsg == WM_LBUTTONDOWN)/*èœå•ç‚¹å‡»ååº”*/
 			switch (flag)
 			{
 			case 1:
@@ -362,16 +362,16 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 	}
 	available(from, a, p,obj);
 	slight(a);
-	while (true)/*Ñ¡Î»*/
+	while (true)/*é€‰ä½*/
 	{
 		m = GetMouseMsg();
-		/*ÒÔÏÂÊÇ²Ëµ¥Êó±êÐü¸¡·´Ó¦*/
+		/*ä»¥ä¸‹æ˜¯èœå•é¼ æ ‡æ‚¬æµ®ååº”*/
 		if ((m.x > 50) && (m.x < 130) && (m.y > 280) && (m.y < 340))
 		{
 			if (flag != 1)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(50, 280, "»ÚÆå");
+				outtextxy(50, 280, "æ‚”æ£‹");
 				settextcolor(0);
 				flag = 1;
 			}
@@ -381,7 +381,7 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 			if (flag != 2)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(460, 280, "ÖØÐÂ¿ªÊ¼");
+				outtextxy(460, 280, "é‡æ–°å¼€å§‹");
 				settextcolor(0);
 				flag = 2;
 			}
@@ -391,19 +391,19 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 			if (flag != 3)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(280, 500, "·µ»Ø");
+				outtextxy(280, 500, "è¿”å›ž");
 				settextcolor(0);
 				flag = 3;
 			}
 		}
 		else if (flag)
 		{
-			outtextxy(50, 280, "»ÚÆå");
-			outtextxy(460, 280, "ÖØÐÂ¿ªÊ¼");
-			outtextxy(280, 500, "·µ»Ø");
+			outtextxy(50, 280, "æ‚”æ£‹");
+			outtextxy(460, 280, "é‡æ–°å¼€å§‹");
+			outtextxy(280, 500, "è¿”å›ž");
 			flag = 0;
-		}/*ÒÔÉÏÎª²Ëµ¥*/
-		if ((m.uMsg == WM_LBUTTONUP) && (m.x > LEFT) && (m.x < LEFT + 240) && (m.y > TOP) && (m.y < TOP + 240))/*Âä×Ó*/
+		}/*ä»¥ä¸Šä¸ºèœå•*/
+		if ((m.uMsg == WM_LBUTTONUP) && (m.x > LEFT) && (m.x < LEFT + 240) && (m.y > TOP) && (m.y < TOP + 240))/*è½å­*/
 		{
 			to = (m.x - LEFT) / 80 + (m.y - TOP) / 80 * 3;
 			if ((to == a[0]) || (to == a[1]) || (to == a[2]))
@@ -412,14 +412,14 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 				way[0] = from; way[1] = to;
 				break;
 			}
-			else if (Point(p, to) == obj)/*ÇÐ»»Ñ¡×Ó*/
+			else if (Point(p, to) == obj)/*åˆ‡æ¢é€‰å­*/
 			{
 				delight(a);
 				available(from = to, a, p,obj);
 				slight(a);
 			}
 		}
-		else if (m.uMsg == WM_LBUTTONDOWN)/*²Ëµ¥µã»÷·´Ó¦*/
+		else if (m.uMsg == WM_LBUTTONDOWN)/*èœå•ç‚¹å‡»ååº”*/
 			switch (flag)
 			{
 			case 1:
@@ -471,23 +471,23 @@ board *move(board *p, long obj,int *way)/*Íæ¼Ò¶¯×Ó£¬Í¨¹ý·µ»Ø×ß·¨£¨·ÅÔÚwayÊý×éÖÐ£
 	}
 	return p;
 }
-void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
+void vs(int *level)/*æŽ§åˆ¶ä¸‹æ£‹ç•Œé¢*/
 {
 	MOUSEMSG m;
 	setbkcolor(0xFFFFFF);
 	settextcolor(BLACK);
 	int way[2];
 	board beginning = { 0250052,NULL,&beginning }, *head = &beginning, *p = head;
-	/*positionµÄµÍ18Î»ÉÏ±íÊ¾ÆåÅÌ,×óÉÏ½ÇÎªµÍ2Î»*/
+	/*positionçš„ä½Ž18ä½ä¸Šè¡¨ç¤ºæ£‹ç›˜,å·¦ä¸Šè§’ä¸ºä½Ž2ä½*/
 	cleardevice();
-	set(p);/*Õ¹¿ªÆåÅÌ*/
+	set(p);/*å±•å¼€æ£‹ç›˜*/
 	while (!Point(p, 4) ||!(((Point(p, 0) == Point(p, 4)) && (Point(p, 8) == Point(p, 4))) || ((Point(p, 2) == Point(p, 4)) && (Point(p, 6) == Point(p, 4)))))
-	{/*º­¸ÇÁË¸÷ÖÖÄ£Ê½µÄ¶¯×Ó*/
-		if (which != 2)/*ÏÔÊ¾Í¼±ê*/
+	{/*æ¶µç›–äº†å„ç§æ¨¡å¼çš„åŠ¨å­*/
+		if (which != 2)/*æ˜¾ç¤ºå›¾æ ‡*/
 			Setchess(-7, &player1);
 		else
 			Setchess(-7, &player2);
-		if (mode == 3)/*¸ø³ö¶¯×ÓÖ¸Áî*/
+		if (mode == 3)/*ç»™å‡ºåŠ¨å­æŒ‡ä»¤*/
 		{
 			if (level[0] == 1)
 				suiji(p, 1, way);
@@ -502,7 +502,7 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 				suiji(p, 2, way);
 			else
 				ai(p, 2, way, level[1]);
-		if (way[0] == -2)/*ÅÐ¶¨ÓÐÎÞÌØÊâÖ¸Áî£¬-2Ö¸·µ»ØÖ÷²Ëµ¥£¬-1±íÊ¾ÇÐ»»Âä×ÓµÄÈË£¨Á´±íÒÑÌáÇ°´¦Àí£©*/
+		if (way[0] == -2)/*åˆ¤å®šæœ‰æ— ç‰¹æ®ŠæŒ‡ä»¤ï¼Œ-2æŒ‡è¿”å›žä¸»èœå•ï¼Œ-1è¡¨ç¤ºåˆ‡æ¢è½å­çš„äººï¼ˆé“¾è¡¨å·²æå‰å¤„ç†ï¼‰*/
 			return;
 		else if (way[0] != -1)
 		{
@@ -512,10 +512,10 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 				p->next->ahead = p;
 				p = p->next;
 				if (which!=2)
-					p->position = p->position & ~((3 << (2 * way[0])) + (3 << (2 * way[1]))) | (1 << (2 * way[1]));/*³ÉÍ¼*/
+					p->position = p->position & ~((3 << (2 * way[0])) + (3 << (2 * way[1]))) | (1 << (2 * way[1]));/*æˆå›¾*/
 				else 
 					p->position = p->position & ~((3 << (2 * way[0])) + (3 << (2 * way[1]))) | (2 << (2 * way[1]));
-				if (which != 2)/*ÒÆ¶¯ÆÁÄ»ÉÏµÄÆå×Ó*/
+				if (which != 2)/*ç§»åŠ¨å±å¹•ä¸Šçš„æ£‹å­*/
 				{
 					Clear(way[0]);
 					Setchess(way[1], &player1);
@@ -527,9 +527,9 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 				}
 			}
 			if (Point(p, 4) && (((Point(p, 0) == Point(p, 4)) && (Point(p, 8) == Point(p, 4))) || ((Point(p, 2) == Point(p, 4)) && (Point(p, 6) == Point(p, 4)))))
-				break;/*ÅÐ¶Ï½áÊø·ñ*/
+				break;/*åˆ¤æ–­ç»“æŸå¦*/
 		}
-		/*ÒÔÉÏÎªÏÈÊÖ¶¯×Ó£¬ÒÔÏÂÎªºóÊÖ¶¯×Ó£¬½á¹¹Í¬ÉÏ*/
+		/*ä»¥ä¸Šä¸ºå…ˆæ‰‹åŠ¨å­ï¼Œä»¥ä¸‹ä¸ºåŽæ‰‹åŠ¨å­ï¼Œç»“æž„åŒä¸Š*/
 		if (which != 2)
 			Setchess(-7, &player2);
 		else
@@ -561,7 +561,7 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 				p->next->ahead = p;
 				p = p->next;
 				if (which!=2)
-					p->position = p->position & ~((3 << (2 * way[0])) + (3 << (2 * way[1]))) | (2 << (2 * way[1]));/*³ÉÍ¼*/
+					p->position = p->position & ~((3 << (2 * way[0])) + (3 << (2 * way[1]))) | (2 << (2 * way[1]));/*æˆå›¾*/
 				else 
 					p->position = p->position & ~((3 << (2 * way[0])) + (3 << (2 * way[1]))) | (1 << (2 * way[1]));
 			}
@@ -576,12 +576,12 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 				Setchess(way[1], &player1);
 			}
 			if (Point(p, 4) && (((Point(p, 0) == Point(p, 4)) && (Point(p, 8) == Point(p, 4))) || ((Point(p, 2) == Point(p, 4)) && (Point(p, 6) == Point(p, 4)))))
-				break;/*ÅÐ¶Ï½áÊø·ñ*/
+				break;/*åˆ¤æ–­ç»“æŸå¦*/
 		}
 	}
 	settextstyle(60, 20, 0);
 	settextcolor(0x0000EE);
-	if (mode == 1)/*¸ø³öÓÎÏ·½áÊøµÄ±êÖ¾*/
+	if (mode == 1)/*ç»™å‡ºæ¸¸æˆç»“æŸçš„æ ‡å¿—*/
 		outtextxy(LEFT + 80, TOP - 80, "WIN!");
 	else if (mode==2)
 		if (Point(p, 4) == 1)
@@ -589,21 +589,21 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 		else
 			outtextxy(LEFT + 30, TOP - 80, "YOU LOSE!");
 	else if (Point(p, 4) == 1)
-		outtextxy(LEFT + 40, TOP - 80, "ÏÈ·¢ÖÆÈË");
+		outtextxy(LEFT + 40, TOP - 80, "å…ˆå‘åˆ¶äºº");
 	else
-		outtextxy(LEFT + 40, TOP - 80, "ºóÀ´¾ÓÉÏ");
+		outtextxy(LEFT + 40, TOP - 80, "åŽæ¥å±…ä¸Š");
 	if (Point(p, 4) == 1)
 		Setchess(-7, &player1win);
 	else
 		Setchess(-7, &player2win);
-	while (p->ahead)/*Çå¿ÕÁ´±í*/
+	while (p->ahead)/*æ¸…ç©ºé“¾è¡¨*/
 	{
 		p = p->ahead;
 		free(p->next);
 	}
 	int flag = 0;
-	outtextxy(460, 280, "ÔÙÀ´Ò»¾Ö");
-	/*ÒÔÏÂÊÇ²Ëµ¥*/
+	outtextxy(460, 280, "å†æ¥ä¸€å±€");
+	/*ä»¥ä¸‹æ˜¯èœå•*/
 	while (true)
 	{
 		m = GetMouseMsg();
@@ -612,7 +612,7 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 			if (flag != 1)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(50, 280, "»ÚÆå");
+				outtextxy(50, 280, "æ‚”æ£‹");
 				settextcolor(0);
 				flag = 1;
 			}
@@ -622,7 +622,7 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 			if (flag != 2)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(460, 280, "ÔÙÀ´Ò»¾Ö");
+				outtextxy(460, 280, "å†æ¥ä¸€å±€");
 				settextcolor(0);
 				flag = 2;
 			}
@@ -632,18 +632,18 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 			if (flag != 3)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(280, 500, "·µ»Ø");
+				outtextxy(280, 500, "è¿”å›ž");
 				settextcolor(0);
 				flag = 3;
 			}
 		}
 		else if (flag)
 		{
-			outtextxy(50, 280, "»ÚÆå");
-			outtextxy(460, 280, "ÔÙÀ´Ò»¾Ö");
-			outtextxy(280, 500, "·µ»Ø");
+			outtextxy(50, 280, "æ‚”æ£‹");
+			outtextxy(460, 280, "å†æ¥ä¸€å±€");
+			outtextxy(280, 500, "è¿”å›ž");
 			flag = 0;
-		}/*ÒÔÉÏÎª²Ëµ¥*/
+		}/*ä»¥ä¸Šä¸ºèœå•*/
 		if (m.uMsg == WM_LBUTTONDOWN)
 			switch (flag)
 			{
@@ -654,7 +654,7 @@ void vs(int *level)/*¿ØÖÆÏÂÆå½çÃæ*/
 			}
 	}
 }
-void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
+void choose(void)/*é€‰æ‹©AIéš¾åº¦ã€å…ˆåŽæ‰‹ä»¥åŠEVEé¢‘çŽ‡ç•Œé¢*/
 {
 	MOUSEMSG m;
 	int  level[2] = { 0,0 };
@@ -672,7 +672,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 	outtextxy(440, 480, "LEVEL5");
 	if (mode == 2)
 	{
-		outtextxy(80, 320, "Íæ¼Ò");
+		outtextxy(80, 320, "çŽ©å®¶");
 		level[0] = 5;
 		outtextxy(290, 100, "PVE");
 		loadimage(&player1, _T("PNG"), _T("player"), 79, 79);
@@ -687,10 +687,10 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 		outtextxy(80, 480, "LEVEL5");
 		outtextxy(290, 100, "EVE");
 	}
-	while (true)/*AIÄÑ¶È²Ëµ¥·´Ó¦*/
+	while (true)/*AIéš¾åº¦èœå•ååº”*/
 	{
 		m = GetMouseMsg();
-		/*ÒÔÏÂÊÇÓÒ²àAIÊó±êÐü¸¡Ð§¹û*/
+		/*ä»¥ä¸‹æ˜¯å³ä¾§AIé¼ æ ‡æ‚¬æµ®æ•ˆæžœ*/
 		if (m.x > 440 && m.x < 560 && m.y>160 && m.y < 220)
 		{
 			if (flag1 != 1)
@@ -698,7 +698,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 160, 570, 220);
-				outtextxy(440, 180, "½ö¹©ÊìÏ¤¹æÔò");
+				outtextxy(440, 180, "ä»…ä¾›ç†Ÿæ‚‰è§„åˆ™");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 1;
@@ -711,7 +711,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 240, 570, 300);
-				outtextxy(440, 260, "AI¸Õ¸ÕÃ÷°×¹æÔò");
+				outtextxy(440, 260, "AIåˆšåˆšæ˜Žç™½è§„åˆ™");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 2;
@@ -724,7 +724,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 320, 570, 380);
-				outtextxy(440, 340, "AIÃ»ÄÇÃ´ËÀ°åÁË");
+				outtextxy(440, 340, "AIæ²¡é‚£ä¹ˆæ­»æ¿äº†");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 3;
@@ -737,7 +737,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 400, 570, 460);
-				outtextxy(440, 420, "½¨ÒéÍæ¼ÒÏÈÊÖ");
+				outtextxy(440, 420, "å»ºè®®çŽ©å®¶å…ˆæ‰‹");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 5;
@@ -750,7 +750,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 480, 570, 540);
-				outtextxy(440, 500, "ÈËÀà´óÊ§°Ü");
+				outtextxy(440, 500, "äººç±»å¤§å¤±è´¥");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 6;
@@ -765,7 +765,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 			outtextxy(440, 480, "LEVEL5");
 			flag1 = 0;
 		}
-		/*ÒÔÏÂÊÇ×ó²àAIÊó±êÐü¸¡Ð§¹û*/
+		/*ä»¥ä¸‹æ˜¯å·¦ä¾§AIé¼ æ ‡æ‚¬æµ®æ•ˆæžœ*/
 		if (mode == 3)
 		{
 			if (m.x > 80 && m.x < 200 && m.y>160 && m.y < 220)
@@ -775,7 +775,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 160, 210, 220);
-					outtextxy(80, 180, "½ö¹©ÊìÏ¤¹æÔò");
+					outtextxy(80, 180, "ä»…ä¾›ç†Ÿæ‚‰è§„åˆ™");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 1;
@@ -788,7 +788,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 240, 210, 300);
-					outtextxy(80, 260, "AI¸Õ¸ÕÃ÷°×¹æÔò");
+					outtextxy(80, 260, "AIåˆšåˆšæ˜Žç™½è§„åˆ™");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 2;
@@ -801,7 +801,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 320, 210, 380);
-					outtextxy(80, 340, "AIÃ»ÄÇÃ´ËÀ°åÁË");
+					outtextxy(80, 340, "AIæ²¡é‚£ä¹ˆæ­»æ¿äº†");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 3;
@@ -814,7 +814,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 400, 210, 460);
-					outtextxy(80, 420, "½¨ÒéÍæ¼ÒÏÈÊÖ");
+					outtextxy(80, 420, "å»ºè®®çŽ©å®¶å…ˆæ‰‹");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 5;
@@ -827,7 +827,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 480, 210, 540);
-					outtextxy(80, 500, "ÈËÀà´óÊ§°Ü");
+					outtextxy(80, 500, "äººç±»å¤§å¤±è´¥");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 6;
@@ -843,11 +843,11 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				flag2 = 0;
 			}
 		}
-		/*ÒÔÏÂÊÇ¿ªÊ¼¼üÊó±êÐü¸¡Ð§¹û*/
+		/*ä»¥ä¸‹æ˜¯å¼€å§‹é”®é¼ æ ‡æ‚¬æµ®æ•ˆæžœ*/
 		if (m.x > 290 && m.x < 350 && m.y>100 && m.y < 160)
 		{
 			settextcolor(0x0000EE);
-			outtextxy(290, 100, "GO£¡");
+			outtextxy(290, 100, "GOï¼");
 			settextcolor(BLACK);
 			flag3 = 1;
 		}
@@ -859,7 +859,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				outtextxy(290, 100, "EVE");
 			flag3 = 0;
 		}
-		/*ÒÔÏÂÊÇµã»÷Ð§¹û*/
+		/*ä»¥ä¸‹æ˜¯ç‚¹å‡»æ•ˆæžœ*/
 		if (m.uMsg == WM_LBUTTONDOWN)
 		{
 			if (mode == 3 && flag2)
@@ -869,7 +869,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 			if (mode == 3)
 			{
 				switch (level[0])
-				{/*¸ø¶¨Í·Ïñ*/
+				{/*ç»™å®šå¤´åƒ*/
 				case 1: loadimage(&player1, _T("PNG"), _T("LEVEL1"), 79, 79, 0); break;
 				case 2: loadimage(&player1, _T("PNG"), _T("LEVEL2"), 79, 79, 0); break;
 				case 3: loadimage(&player1, _T("PNG"), _T("LEVEL3"), 79, 79, 0); break;
@@ -879,7 +879,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				}
 			}
 			switch (level[1])
-			{/*¸ø¶¨Í·Ïñ*/
+			{/*ç»™å®šå¤´åƒ*/
 			case 1: loadimage(&player2, _T("PNG"), _T("LEVEL1"), 79, 79, 0); break;
 			case 2: loadimage(&player2, _T("PNG"), _T("LEVEL2"), 79, 79, 0); break;
 			case 3: loadimage(&player2, _T("PNG"), _T("LEVEL3"), 79, 79, 0); break;
@@ -892,14 +892,14 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 			if (level[1])
 				putimage(480, 60, &player2);
 		}
-		if (level[0] && level[1])/*Ë«·½¶¼Ñ¡ÔñÍê±Ï*/
+		if (level[0] && level[1])/*åŒæ–¹éƒ½é€‰æ‹©å®Œæ¯•*/
 			if (m.uMsg == WM_LBUTTONDOWN && flag3)
 			{
 				if (mode == 2)
 					loadimage(&player1win, _T("PNG"), _T("PLAYERWIN"), 79, 79, 0);
 				else
 					switch (level[0])
-					{/*¸ø¶¨Ê¤Àû±êÖ¾*/
+					{/*ç»™å®šèƒœåˆ©æ ‡å¿—*/
 					case 1: loadimage(&player1win, _T("PNG"), _T("LEVEL1WIN"), 79, 79, 0); break;
 					case 2: loadimage(&player1win, _T("PNG"), _T("LEVEL2WIN"), 79, 79, 0); break;
 					case 3: loadimage(&player1win, _T("PNG"), _T("LEVEL3WIN"), 79, 79, 0); break;
@@ -908,7 +908,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 					default:break;
 					}
 				switch (level[1])
-				{/*¸ø¶¨Ê¤Àû±êÖ¾*/
+				{/*ç»™å®šèƒœåˆ©æ ‡å¿—*/
 				case 1: loadimage(&player2win, _T("PNG"), _T("LEVEL1WIN"), 79, 79, 0); break;
 				case 2: loadimage(&player2win, _T("PNG"), _T("LEVEL2WIN"), 79, 79, 0); break;
 				case 3: loadimage(&player2win, _T("PNG"), _T("LEVEL3WIN"), 79, 79, 0); break;
@@ -919,14 +919,14 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				break;
 			}
 	}
-	/*ÒÔÏÂÊÇÑ¡ÔñÏÈºóÊÖ½çÃæ*/
+	/*ä»¥ä¸‹æ˜¯é€‰æ‹©å…ˆåŽæ‰‹ç•Œé¢*/
 	if (mode == 2)
 	{
 		flag1 = 0;
 		cleardevice();
-		outtextxy(260, 240, "ÄãÑ¡Ôñ");
-		outtextxy(280, 320, "ÏÈÊÖ");
-		outtextxy(280, 400, "ºóÊÖ");
+		outtextxy(260, 240, "ä½ é€‰æ‹©");
+		outtextxy(280, 320, "å…ˆæ‰‹");
+		outtextxy(280, 400, "åŽæ‰‹");
 		while (true)
 		{
 			m = GetMouseMsg();
@@ -935,7 +935,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				if (flag1 != 1)
 				{
 					settextcolor(0x0000EE);
-					outtextxy(280, 320, "ÏÈÊÖ");
+					outtextxy(280, 320, "å…ˆæ‰‹");
 					settextcolor(BLACK);
 					flag1 = 1;
 				}
@@ -945,15 +945,15 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				if (flag1 != 2)
 				{
 					settextcolor(0x0000EE);
-					outtextxy(280, 400, "ºóÊÖ");
+					outtextxy(280, 400, "åŽæ‰‹");
 					settextcolor(BLACK);
 					flag1 = 2;
 				}
 			}
 			else if (flag1)
 			{
-				outtextxy(280, 320, "ÏÈÊÖ");
-				outtextxy(280, 400, "ºóÊÖ");
+				outtextxy(280, 320, "å…ˆæ‰‹");
+				outtextxy(280, 400, "åŽæ‰‹");
 				flag1 = 0;
 			}
 			if (m.uMsg == WM_LBUTTONDOWN)
@@ -964,14 +964,14 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 			}
 		}
 	}
-	/*ÒÔÏÂÊÇÑ¡ÔñEVEÆµÂÊ½çÃæ*/
+	/*ä»¥ä¸‹æ˜¯é€‰æ‹©EVEé¢‘çŽ‡ç•Œé¢*/
 	if (mode == 3)
 	{
 		flag1 = 0;
 		cleardevice();
-		outtextxy(260, 240, "ÄãÑ¡Ôñ");
-		outtextxy(240, 320, "¹Û²â¹ý³Ì");
-		outtextxy(240, 400, "¹Û²â½á¹û");
+		outtextxy(260, 240, "ä½ é€‰æ‹©");
+		outtextxy(240, 320, "è§‚æµ‹è¿‡ç¨‹");
+		outtextxy(240, 400, "è§‚æµ‹ç»“æžœ");
 		while (true)
 		{
 			m = GetMouseMsg();
@@ -980,7 +980,7 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				if (flag1 != 1)
 				{
 					settextcolor(0x0000EE);
-					outtextxy(240, 320, "¹Û²â¹ý³Ì");
+					outtextxy(240, 320, "è§‚æµ‹è¿‡ç¨‹");
 					settextcolor(BLACK);
 					flag1 = 1;
 				}
@@ -990,15 +990,15 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 				if (flag1 != 2)
 				{
 					settextcolor(0x0000EE);
-					outtextxy(240, 400, "¹Û²â½á¹û");
+					outtextxy(240, 400, "è§‚æµ‹ç»“æžœ");
 					settextcolor(BLACK);
 					flag1 = 2;
 				}
 			}
 			else if (flag1)
 			{
-				outtextxy(240, 320, "¹Û²â¹ý³Ì");
-				outtextxy(240, 400, "¹Û²â½á¹û");
+				outtextxy(240, 320, "è§‚æµ‹è¿‡ç¨‹");
+				outtextxy(240, 400, "è§‚æµ‹ç»“æžœ");
 				flag1 = 0;
 			}
 			if (m.uMsg == WM_LBUTTONDOWN)
@@ -1016,23 +1016,23 @@ void choose(void)/*Ñ¡ÔñAIÄÑ¶È¡¢ÏÈºóÊÖÒÔ¼°EVEÆµÂÊ½çÃæ*/
 	}
 	vs(level);
 }
-void rules(void)/*ÏÔÊ¾¹æÔò*/
+void rules(void)/*æ˜¾ç¤ºè§„åˆ™*/
 {
 	setbkcolor(WHITE);
 	cleardevice();
 	settextcolor(RED);
-	outtext("ÄãÃ»¼û¹ýµÄ¾®×ÖÆå     ¹æÔò");
+	outtext("ä½ æ²¡è§è¿‡çš„äº•å­—æ£‹     è§„åˆ™");
 	settextcolor(0);
-	outtextxy(280, 500, "·µ»Ø");
+	outtextxy(280, 500, "è¿”å›ž");
 	settextstyle(24, 8, 0);
-	outtextxy(0, 80, "1.PVPÄ£Ê½ÊÇÁ½¸öÍæ¼Ò¶ÔÕ½£¬PVEÄ£Ê½ÊÇÈË»ú¶ÔÕ½");
-	outtextxy(0, 160, "2.Ê¤ÀûÌõ¼þÊÇÒ»·½Æå×ÓÔÚÄ³¶Ô½ÇÏß³ÉÒ»ÌõÖ±Ïß");
-	outtextxy(0, 240, "3.¸ÃÓÎÏ·¹æÔò±¾ÉíÓÐÒ»¸öbug£¬Óöµ½¸ÃbugÊ±½«»áÇ¿ÖÆ»ÚÆå²¢¾¯¸æ");
-	outtextxy(0, 320, "³£ÓÃÓÊÏä751598415@qq.com£¬GitHub£ºhttps://github.com/LMA936/CHESS");
-	outtextxy(0, 400, "ºó¼Ç£ºÕâÒÑ¾­ÊÇÖØÉúµÄ#ÁË£¬³õ´úµÄËüÖ»Ê£ÏÂÁË¿É¹©¼ÍÄîµÄexe");
-	outtextxy(0, 480, "level5Êä²»ÁË£¬Çë²»Òª½öÒò´Ë¾ÍÊÓÆäÎªÁ÷Ã¥");
+	outtextxy(0, 80, "1.PVPæ¨¡å¼æ˜¯ä¸¤ä¸ªçŽ©å®¶å¯¹æˆ˜ï¼ŒPVEæ¨¡å¼æ˜¯äººæœºå¯¹æˆ˜");
+	outtextxy(0, 160, "2.èƒœåˆ©æ¡ä»¶æ˜¯ä¸€æ–¹æ£‹å­åœ¨æŸå¯¹è§’çº¿æˆä¸€æ¡ç›´çº¿");
+	outtextxy(0, 240, "3.è¯¥æ¸¸æˆè§„åˆ™æœ¬èº«æœ‰ä¸€ä¸ªbugï¼Œé‡åˆ°è¯¥bugæ—¶å°†ä¼šå¼ºåˆ¶æ‚”æ£‹å¹¶è­¦å‘Š");
+	outtextxy(0, 320, "å¸¸ç”¨é‚®ç®±751598415@qq.comï¼ŒGitHubï¼šhttps://github.com/LMA936/CHESS");
+	outtextxy(0, 400, "åŽè®°ï¼šè¿™å·²ç»æ˜¯é‡ç”Ÿçš„#äº†ï¼Œåˆä»£çš„å®ƒåªå‰©ä¸‹äº†å¯ä¾›çºªå¿µçš„exe");
+	outtextxy(0, 480, "level5è¾“ä¸äº†ï¼Œè¯·ä¸è¦ä»…å› æ­¤å°±è§†å…¶ä¸ºæµæ°“");
 	settextstyle(60, 20, 0);
-	/*²Ëµ¥*/
+	/*èœå•*/
 	MOUSEMSG m;
 	int flag = 0;
 	while (true)
@@ -1043,16 +1043,16 @@ void rules(void)/*ÏÔÊ¾¹æÔò*/
 			if (!flag)
 			{
 				settextcolor(0x0000EE);
-				outtextxy(280, 500, "·µ»Ø");
+				outtextxy(280, 500, "è¿”å›ž");
 				settextcolor(0);
 				flag = 1;
 			}
 		}
 		else if (flag)
 		{
-			outtextxy(280, 500, "·µ»Ø");
+			outtextxy(280, 500, "è¿”å›ž");
 			flag = 0;
-		}/*ÒÔÉÏÎª²Ëµ¥*/
+		}/*ä»¥ä¸Šä¸ºèœå•*/
 		if ((m.uMsg == WM_LBUTTONDOWN) && flag)
 		{
 			settextcolor(WHITE);
@@ -1060,7 +1060,7 @@ void rules(void)/*ÏÔÊ¾¹æÔò*/
 		}
 	}
 }
-int main(void)/*Ö÷½çÃæ*/
+int main(void)/*ä¸»ç•Œé¢*/
 {
 	initgraph(640, 640);
 title:
@@ -1071,17 +1071,17 @@ title:
 	loadimage(NULL, _T("PNG"), _T("BACKGROUND"), 640, 640,0);
 	settextstyle(24, 8, 0);
 	outtextxy(292, 36, "(rules)");
-	outtextxy(200,610 , "½ö¹©Ãâ·ÑÓÎÍæ£¬Áí×÷ËûÓÃ¸Å²»¸ºÔð");
+	outtextxy(200,610 , "ä»…ä¾›å…è´¹æ¸¸çŽ©ï¼Œå¦ä½œä»–ç”¨æ¦‚ä¸è´Ÿè´£");
 	settextstyle(60, 20, 0);
 	outtextxy(260, 60, "#CHESS");
 	outtextxy(150, 280, "PVP");
 	outtextxy(420, 280, "PVE");
 	outtextxy(280, 550, "EXIT");
-	/*ÒÔÉÏÊÇ´òÓ¡³õÊ¼½çÃæ*/
+	/*ä»¥ä¸Šæ˜¯æ‰“å°åˆå§‹ç•Œé¢*/
 	MOUSEMSG m;
 	int flag = 0;
 	int a[2] = { 5,5 };
-	while (true)/*²Ëµ¥*/
+	while (true)/*èœå•*/
 	{
 		m = GetMouseMsg();
 		if ((m.x > 150) && (m.x < 210) && (m.y > 280) && (m.y < 340))
@@ -1131,8 +1131,8 @@ title:
 			outtextxy(420, 280, "PVE");
 			outtextxy(280, 550, "EXIT");
 			flag = 0;
-		}/*ÒÔÉÏÎª²Ëµ¥*/
-		/*ÒÔÉÏÊÇÊó±êÐüÍ£·´Ó¦£¬ÒÔÏÂÊÇµã»÷·´Ó¦*/
+		}/*ä»¥ä¸Šä¸ºèœå•*/
+		/*ä»¥ä¸Šæ˜¯é¼ æ ‡æ‚¬åœååº”ï¼Œä»¥ä¸‹æ˜¯ç‚¹å‡»ååº”*/
 		if (m.uMsg == WM_LBUTTONDOWN)
 		{
 			switch (flag)
@@ -1151,7 +1151,7 @@ title:
 			case 3:closegraph(); return 0;
 			case 4:rules(); goto title; break;
 			}
-			if (m.x>260&&m.x<375&&m.y>250&&m.y<300)/*²Êµ°EVE*/
+			if (m.x>260&&m.x<375&&m.y>250&&m.y<300)/*å½©è›‹EVE*/
 			{
 				mode = 3;
 				choose();
