@@ -737,7 +737,7 @@ void choose(void)/*选择AI难度、先后手以及EVE频率界面*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 400, 570, 460);
-				outtextxy(440, 420, "AI已经接近神了");
+				outtextxy(440, 420, "建议玩家先手");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 5;
@@ -750,7 +750,7 @@ void choose(void)/*选择AI难度、先后手以及EVE频率界面*/
 				settextcolor(0x0000EE);
 				settextstyle(24, 8, 0);
 				clearrectangle(440, 480, 570, 540);
-				outtextxy(440, 500, "AI已经超越神了");
+				outtextxy(440, 500, "人类大失败");
 				settextstyle(60, 20, 0);
 				settextcolor(BLACK);
 				flag1 = 6;
@@ -814,7 +814,7 @@ void choose(void)/*选择AI难度、先后手以及EVE频率界面*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 400, 210, 460);
-					outtextxy(80, 420, "AI已经接近神了");
+					outtextxy(80, 420, "建议玩家先手");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 5;
@@ -827,7 +827,7 @@ void choose(void)/*选择AI难度、先后手以及EVE频率界面*/
 					settextcolor(0x0000EE);
 					settextstyle(24, 8, 0);
 					clearrectangle(80, 480, 210, 540);
-					outtextxy(80, 500, "AI已经超越神了");
+					outtextxy(80, 500, "人类大失败");
 					settextstyle(60, 20, 0);
 					settextcolor(BLACK);
 					flag2 = 6;
@@ -1028,9 +1028,9 @@ void rules(void)/*显示规则*/
 	outtextxy(0, 80, "1.PVP模式是两个玩家对战，PVE模式是人机对战");
 	outtextxy(0, 160, "2.胜利条件是一方棋子在某对角线成一条直线");
 	outtextxy(0, 240, "3.该游戏规则本身有一个bug，遇到该bug时将会强制悔棋并警告");
-	outtextxy(0, 320, "4.联系邮箱751598415@qq.com，GitHub：https://github.com/LMA936/CHESS");
-	outtextxy(0, 400, "作者后记：这已经是重生的#了，初代的它只剩下了可供纪念的exe");
-	outtextxy(0, 480, "level5是不会输的，有很多人却仅因此视其为流氓");
+	outtextxy(0, 320, "常用邮箱751598415@qq.com，GitHub：https://github.com/LMA936/CHESS");
+	outtextxy(0, 400, "后记：这已经是重生的#了，初代的它只剩下了可供纪念的exe");
+	outtextxy(0, 480, "level5输不了，请不要仅因此就视其为流氓");
 	settextstyle(60, 20, 0);
 	/*菜单*/
 	MOUSEMSG m;
