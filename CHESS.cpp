@@ -1,5 +1,5 @@
 /***************************************************************************************************************************************************************
-我们没见过的井字棋2.0（之所以叫2.0并不是因为只大改了一次，而是因为原本写好的代码被误删了，版本号也没了）
+我们没见过的井字棋2.0（之所以叫2.0并不是因为只大改了一次，而是因为原本写好的代码被误删了，版本号也没了） 
 使用工具：EasyX库函数，除此之外全是C的语法
 该代码主要包含三部分：图形界面（main、rules、choose、set、slight、delight、vs）、移动棋子系统（vs、availabel）与下棋指令系统（move、suiji、ai（sure））
 AI方面：
@@ -20,7 +20,7 @@ LEVEL5则是调用自身4次（level=6），达成的效果是可以将三步以内必胜的走法直接输出，
 #define LEFT 210
 #define TOP 200/*棋盘左上角顶点*/
 #define Point(p,x) (((p)->position & (3<<(2*(x))))>>(2*(x)))/*对应点上的东西*/
-#define Setchess(a,img) (putimage(LEFT + 1 + fabs((a) % 3 * 80),TOP + 1 + (a) / 3 * 80,img))
+#define Setchess(a,img) (putimage(LEFT + 1 + fabs((a) % 3 * 80),TOP + 1 + (a) / 3 * 80,img))/*放置棋子*/ 
 #define Clear(a) clearrectangle(LEFT + 1 + fabs((a) % 3 * 80), TOP + 1 + (a) / 3 * 80, LEFT + 79 + fabs((a) % 3 * 80), TOP + 79 + (a) / 3 * 80)/*清空一个块*/
 #define light(a) fillrectangle(LEFT + 1 + fabs((a) % 3 * 80), TOP + 1 + (a) / 3 * 80, LEFT + 79 + fabs((a) % 3 * 80), TOP + 79 + (a) / 3 * 80)/*高亮可选区*/
 IMAGE player1, player2, player1win, player2win;
@@ -101,7 +101,7 @@ int available(int a, int *b, board *p,int obj)/*可选区*/
 		if (!Point(p, 7)) b[sum++] = 7;
 		break;
 	}
-	for (t = sum--; sum >= 0; sum--)
+	for (t = sum--; sum >= 0; sum--)/*不允许一方的三个棋子将对方挤在一边无法移动*/ 
 	{
 		q.position = p->position & ~((3 << (2 * a)) + (3 << (2 * b[sum]))) | (obj << (2 * b[sum]));
 		if (Point(&q, 4) && (((Point(&q, 0) == Point(&q, 1)) && (Point(&q, 1) == Point(&q, 2)) && ((Point(&q, 3) == Point(&q, 4)) && (Point(&q, 4) == Point(&q, 5)))) || (((Point(&q, 0) == Point(&q, 3)) && (Point(&q, 3) == Point(&q, 6)) && ((Point(&q, 1) == Point(&q, 4)) && (Point(&q, 4) == Point(&q, 7)))))))
@@ -1151,7 +1151,7 @@ title:
 				vs(a);
 				goto title;
 				break;
-			case 2:mode = 2; choose(); goto title; break;
+			case 2:mode = 2; choose();which = 0; goto title; break;
 			case 3:closegraph(); return 0;
 			case 4:rules(); goto title; break;
 			}
